@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ninja {{color}}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <p>{{color}}</p>
+        
+        <img src="{{ url_for('static', filename='' + color +'.jpg') }}" />
+    
+    </body>
+</html>
